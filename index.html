@@ -7,11 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heyyyy Check In</title>
     
-    <!-- เพิ่มบรรทัดนี้เพื่อเปลี่ยนไอคอน (ตัวอย่างแบบ Emoji) -->
-    <link rel="icon" href="https://i.postimg.cc/G2Ygx2Fc/Reez-Q-Check-In-(60-x-90-cm).png" type="image/x-icon">    
+    <!-- แก้ไขส่วน Favicon ให้รองรับไฟล์ PNG -->
+    <link rel="icon" href="https://i.postimg.cc/G2Ygx2Fc/Reez-Q-Check-In-(60-x-90-cm).png" type="image/png">    
 
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+        iframe { width: 100%; height: 100vh; border: none; }
+    </style>
 </head>
-<body style="margin:0;">
-    <iframe style="width: 100%; height: 100vh; border: none;" scrolling="yes" src="https://script.google.com/macros/s/AKfycbwz7XV42MupqFZtNJnzkVRF2MlhbnOfJ9dBjib8FHFaOh1buyOFB1kvBioPFIPAhnqJpw/exec" frameborder="0"></iframe>
+<body>
+    <iframe src="https://script.google.com/macros/s/AKfycbwz7XV42MupqFZtNJnzkVRF2MlhbnOfJ9dBjib8FHFaOh1buyOFB1kvBioPFIPAhnqJpw/exec" allow="geolocation; microphone; camera"></iframe>
 </body>
 </html>
